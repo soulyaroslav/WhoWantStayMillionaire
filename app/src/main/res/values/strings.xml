@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Million</string>
+    <string name="btn_start">Играть</string>
+    <string name="btn_result">Рекорды</string>
+    <string name="btn_quit">Выход</string>
+    <string name="btn_continue">Продолжить</string>
+    <string name="win_text_one">Поздравляем!</string>
+    <string name="win_text_two">Вы выиграли</string>
+    <string name="lose_text">Вы \n проиграли!</string>
+
+    <string name="$500">$500</string>
+    <string name="$1000">$1 000</string>
+    <string name="$5000">$5 000</string>
+    <string name="$25000">$25 000</string>
+    <string name="$50000">$50 000</string>
+    <string name="$100000">$100 000</string>
+    <string name="$150000">$150 000</string>
+    <string name="$250000">$250 000</string>
+    <string name="$500000">$500 000</string>
+    <string name="$750000">$750 000</string>
+    <string name="$1000000">$1 000 000</string>
+    <!-- Menu items -->
+    <string name="menu_item_save">Сохранить</string>
+    <string name="win_congratulations">Поздравляем\nВы стали миллионером!\n\nВаш счёт:\n$1 000 000</string>
+    <string name="btn_menu">Меню</string>
+    <string name="loading_text">Пожалуйста подождите\nидёт загрузка…</string>
+    <string name="internet_permission">Включите интернет соединение</string>
+    <string name="try_against">Повторить попытку</string>
+</resources>

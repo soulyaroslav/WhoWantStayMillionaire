@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@mipmap/win_or_lose_bg"
+    android:layout_margin="15dp">
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal">
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/line"
+        android:layout_gravity="center"/>
+
+    <include layout="@layout/money_win_layout"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/btn_continue"
+        android:background="@drawable/button_on_off"
+        android:text="@string/btn_continue"
+        android:onClick="onContinue"
+        android:layout_margin="5dp"
+        style="@style/Btn_Text_style"/>
+
+</LinearLayout>

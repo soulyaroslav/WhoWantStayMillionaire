@@ -1,0 +1,54 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar"/>
+
+    <style name="AppDialog" parent="Theme.AppCompat.Dialog">
+        <item name="android:drawable">@mipmap/answer_text_view_bg_default</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <!-- Button text style -->
+    <style name="Btn_Text_style">
+        <item name="android:textColor">@color/btn_text_color</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:typeface">normal</item>
+    </style>
+    <!-- Question TextView text style -->
+    <style name="TvQuestionTextStyle">
+        <item name="android:textColor">@color/color_bold</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+    <!-- Answer TextView text style -->
+    <style name="TvAnswerTextStyle">
+        <item name="android:textColor">@color/color_bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:typeface">normal</item>
+    </style>
+
+    <style name="TvMoneyStyle">
+        <item name="android:textColor">@color/color_bold</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <style name="TvMoneyStyleSmall">
+        <item name="android:textColor">@color/color_bold</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <style name="TextViewStyle">
+        <item name="android:radius">3dp</item>
+    </style>
+
+</resources>

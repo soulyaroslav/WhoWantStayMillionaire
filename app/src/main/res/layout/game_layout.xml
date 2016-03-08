@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_bg_answer_view">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_actionbar"
+        android:layout_width="match_parent"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:layout_height="?android:actionBarSize"
+        android:background="@color/color_view"/>
+
+    <RelativeLayout
+        android:id="@+id/question_container"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        android:background="@mipmap/question_bg"
+        android:layout_margin="15dp">
+
+        <TextView
+            android:id="@+id/tvQuestion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            style="@style/TvQuestionTextStyle"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/answer_container"
+        android:layout_width="match_parent"
+        android:layout_height="218dp"
+        android:orientation="vertical"
+        android:background="@mipmap/answer_bg"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp">
+
+        <TextView
+            android:id="@+id/answerA"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="7dp"
+            android:background="@mipmap/answer_text_view_bg_default"
+            android:onClick="onAnswerClick"
+            android:clickable="true"
+            style="@style/TvAnswerTextStyle"/>
+
+        <TextView
+            android:id="@+id/answerB"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="7dp"
+            android:layout_below="@+id/answerA"
+            android:background="@mipmap/answer_text_view_bg_default"
+            android:onClick="onAnswerClick"
+            android:clickable="true"
+            style="@style/TvAnswerTextStyle"/>
+
+        <TextView
+            android:id="@+id/answerC"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="7dp"
+            android:layout_below="@+id/answerB"
+            android:background="@mipmap/answer_text_view_bg_default"
+            android:onClick="onAnswerClick"
+            android:clickable="true"
+            style="@style/TvAnswerTextStyle"/>
+
+        <TextView
+            android:id="@+id/answerD"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="7dp"
+            android:layout_below="@+id/answerC"
+            android:background="@mipmap/answer_text_view_bg_default"
+            android:onClick="onAnswerClick"
+            android:clickable="true"
+            style="@style/TvAnswerTextStyle"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn_help_fifty_fifty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/support1"
+            android:clickable="true"
+            android:onClick="onButtonHelpClick"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/btn_help_friend_call"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/support2"
+            android:clickable="true"
+            android:onClick="onButtonHelpClick"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/btn_help_people_helps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/support3"
+            android:clickable="true"
+            android:onClick="onButtonHelpClick"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="14dp"
+            android:layout_marginEnd="14dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+
+</LinearLayout>

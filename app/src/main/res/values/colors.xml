@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- activity color !-->
+    <color name="activity_color1">#808080</color>
+    <color name="activity_color2">#f2f2f2</color>
+    <color name="color_view">#5d005f</color>
+    <color name="color_bg_view">#cccccc</color>
+    <color name="color_bg_answer_view">#ececec</color>
+    <color name="color_bold">#4d4d4d</color>
+    <color name="color_touch_answer">#ff9955</color>
+    <color name="color_right_answer">#9cc300</color>
+</resources>

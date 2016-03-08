@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/answer_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/view_bg"
+    android:layout_marginTop="5dp"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp">
+
+    <TextView
+        android:id="@+id/help_answerA"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_margin="7dp"
+        android:background="@mipmap/answer_text_view_bg_default"
+        style="@style/TvAnswerTextStyle"/>
+
+    <TextView
+        android:id="@+id/help_answerB"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_margin="7dp"
+        android:background="@mipmap/answer_text_view_bg_default"
+        style="@style/TvAnswerTextStyle"/>
+
+    <TextView
+        android:id="@+id/help_answerC"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_margin="7dp"
+        android:background="@mipmap/answer_text_view_bg_default"
+        style="@style/TvAnswerTextStyle"/>
+
+    <TextView
+        android:id="@+id/help_answerD"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_margin="7dp"
+        android:background="@mipmap/answer_text_view_bg_default"
+        style="@style/TvAnswerTextStyle"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_continue"
+        android:background="@drawable/button_on_off"
+        style="@style/Btn_Text_style"
+        android:onClick="finishHelp"
+        android:layout_margin="5dp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
